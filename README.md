@@ -45,9 +45,9 @@ Open **two terminals** — one for the backend, one for the frontend.
 
 ```bash
 cd backend
-npm install                # already done
-# copy env template if you don't have a .env yet:
-#   cp .env.example .env    (or copy it in Explorer)
+npm install                # install dependencies
+# create your .env from the template (the real .env is git-ignored):
+#   cp .env.sample .env     (or copy it in Explorer)
 npm run seed               # optional: load 4 sample products
 npm run dev                # starts API on http://localhost:5000
 ```
